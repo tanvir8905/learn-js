@@ -1,6 +1,6 @@
 //! 194. Introduction to DOM
 // ? DOM - Document Object Model
-// 1. DOM is a tree data structure. Just an API to interact with the HTML document and change it later on demand. 
+// 1. DOM is a tree data structure. Just an API to interact with the HTML document and change it later on demand.
 //* 2. 4 types of node. 1. Element 2. Attributes 3. Text 4. Comment
 //* 3. HTML -> Node -> DOM Tree(JS object) -> JS DOM Manipulation(Tree Update) -> Show on Browser
 
@@ -49,3 +49,15 @@
 // let listsItemOne = document.querySelector('[name^="list-item-one"]')
 // console.log(listsItemOne);
 
+//! 199. GetElements Method vs Query Selector in Javascript
+//getElementsByTagName -> Html collection
+//querySelectorAll -> Node list
+
+// let li1 = document.getElementsByTagName("li"); //Element
+// let li2 = document.querySelectorAll("li"); //Node
+// console.log(li1.constructor.name);
+// console.log(li2.constructor.name);
+
+// let ul = document.querySelector("ul");
+// console.log(ul.children);
+// console.log(ul.childNodes);
