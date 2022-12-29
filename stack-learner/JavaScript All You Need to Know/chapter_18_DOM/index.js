@@ -16,8 +16,8 @@
 
 //! 197. Selectors Part One in Javascript
 // select element by -> id, class, tagName, name
-// getElementsByClassName/getElementsByTagName -> htmlCollection
-// getElementsByName -> NodeList
+//* getElementsByClassName/getElementsByTagName -> htmlCollection
+//* getElementsByName -> NodeList
 
 // let title = document.getElementById('title')
 // console.log(title);
@@ -30,3 +30,22 @@
 
 // let listItemOne = document.getElementsByName('list-item-one')
 // console.log(listItemOne);
+
+//! 198. Selectors Part Two in Javascript
+//* querySelectorAll -> NodeList
+
+// let title = document.querySelector('#title')
+// console.log(title);
+
+// let paragraph = document.querySelector('.lead')
+// console.log(title);
+
+// let paragraphs = document.querySelectorAll('.lead')
+// console.log(paragraphs);
+
+// let lists = document.querySelectorAll('li')
+// console.log(lists);
+
+// let listsItemOne = document.querySelector('[name^="list-item-one"]')
+// console.log(listsItemOne);
+
