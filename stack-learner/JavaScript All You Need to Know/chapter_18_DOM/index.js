@@ -13,3 +13,20 @@
 //! 196. Document Object in Javascript
 // html = document
 // document.body, document.URL, document.head
+
+//! 197. Selectors Part One in Javascript
+// select element by -> id, class, tagName, name
+// getElementsByClassName/getElementsByTagName -> htmlCollection
+// getElementsByName -> NodeList
+
+// let title = document.getElementById('title')
+// console.log(title);
+
+// let paragraph = document.getElementsByClassName('lead')
+// console.log(paragraph);
+
+// let lists = document.getElementsByTagName('li')
+// console.log(lists);
+
+// let listItemOne = document.getElementsByName('list-item-one')
+// console.log(listItemOne);
