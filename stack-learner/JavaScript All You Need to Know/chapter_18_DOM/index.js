@@ -74,3 +74,15 @@
 // console.log(li.nextElementSibling);
 // console.log(list.firstElementChild);
 // console.log(list.lastElementChild);
+
+//!201. How to Loop Throw HTML Collections in Javascript
+// let listItem = document.getElementsByTagName("li");
+
+// // let listItems = Array.from(listItem);
+// // let listItems = Array.prototype.slice.apply(listItem);
+// let listItems = [...listItem];
+
+// listItem.forEach((li, ind) => {
+//   let text = li.innerHTML;
+//   li.innerHTML = `(${ind + 1}) ${text}`;
+// });
